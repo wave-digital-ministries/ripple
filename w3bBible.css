@@ -1,0 +1,123 @@
+/*w3b Bible*/
+html, body {
+max-width: 100%;
+max-width:100%;
+overflow-x: scroll;
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+
+}
+html {
+  scroll-behavior: smooth;
+
+}
+body{
+  background-image: url(./webbackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#start{
+  border-color: darkred;
+  width: 75%;
+  background-color: #0d0d0d;
+  color: #cecece;
+  font-size: 5mm;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 40px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  border-width: 1mm;
+
+}
+#start:hover{
+  border-color: orange;
+  width: 95%;
+  background-color: #cecece;
+  font-size: 5mm;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 40px;
+  color:#0d0d0d;
+cursor: pointer;
+
+}
+#category{
+  list-style: georgian;
+  text-align:center
+  color: #cecece;
+  margin: 0.5mm;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#category a{
+  color: #cecece;
+  text-align:center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  font-family: 'Montserrat', sans-serif;
+}
+#category a:hover{
+  color: orange;
+  text-align:center;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+}
+#category ul {
+font-family: 'Montserrat', sans-serif;
+  text-align: center;
+    margin: 0 0 30px 20px;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    column-gap: 30px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+}
+#category1{
+  list-style-type: none;
+  text-align:center;
+  color: #cecece;
+  margin: 0.5mm;
+font-family: 'Montserrat', sans-serif;
+  background-color: #4d4d4d;
+}
+#category1 ul{
+list-style-type: none;
+margin: 0mm;
+padding: 0mm;
+font-family: 'Montserrat', sans-serif;
+}
+#category1 li {
+
+  float: left;
+  display: inline;
+width: 25%;
+list-style-type: none;
+text-align:center;
+font-family: 'Montserrat', sans-serif;
+}
+#category1 li a {
+  display: block;
+  padding: 3mm;
+  background-color: #333;
+  color: #cecece;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+}
+#category1 li a:hover {
+  display: block;
+  padding: 3mm;
+  background-color: #3399ff;
+  color: #0d0d0d;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.BlogPost1{
+  background-color: #595959;
+  border-radius: 5mm;
+}

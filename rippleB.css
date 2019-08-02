@@ -1,0 +1,176 @@
+html{
+  scroll-behavior: smooth;
+  max-width: 100%;
+  max-width:100%;
+  overflow-x: scroll;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+body{
+  background-color: #15202b;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #cecece;
+}
+#p1 {background-color:rgb(0, 64, 128);opacity:0.3;
+
+#p1:hover {background-color:rgb(0, 64, 128);opacity:0.8;}
+/*JazzBlock buttonCC*/
+.buttonM1_blue{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+
+  width: 25%;
+}
+.buttonM1_blue:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #0073e6;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #0073e6;
+  box-shadow: 0mm 0mm 5mm #3399ff;
+  cursor: pointer;
+}
+.buttonM1_blue:active{
+  color: #343546;
+  border-style: solid;
+  border-color: #3399ff;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #3399ff;
+  box-shadow: 0mm 0mm 5mm #0073e6;
+}
+.buttonM2_blue{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+
+  width: auto;
+}
+.buttonM2_blue:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #0073e6;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #0073e6;
+  box-shadow: 0mm 0mm 5mm #3399ff;
+  cursor: pointer;
+}
+.buttonM2_blue:active{
+  color: #343546;
+  border-style: solid;
+  border-color: #3399ff;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #3399ff;
+  box-shadow: 0mm 0mm 5mm #0073e6;
+}
+/*end*/
+.con1{
+  background-image: url(./img/teamtech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con2{
+  background-image: url(./img/childBible.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con3{
+  background-image: url(./img/indstudy.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con4{
+  background-image: url(./img/study.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con5{
+  background-image: url(./img/startup.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con6{
+  background-image: url(./img/business.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%;
+  image-rendering: auto;
+}
+.con7{
+  background-image: url(./img/donate.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 100%;
+  image-rendering: auto;
+}
+.con8{
+  background-image: url(./img/wheat.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 100%;
+  image-rendering: auto;
+}
+.con9{
+  background-image: url(./img/seo.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
+  image-rendering: auto;
+}
+.cont1{
+  background-image: url(./img/JacobB.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: auto;
+  image-rendering: auto;
+
+}
+.menu{
+  background-color: #343546;
+}

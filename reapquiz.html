@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--JazzBlocks required code-->
+  <link rel="preload" href="./libraries/JazzBlocks.css" as="style">
+  <link rel="stylesheet" href="./libraries/JazzBlocks.css">
+  <link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+  <!--end-->
+  <title>Quiz</title>
+  <link rel="preload" href="./ripple.css" as="style">
+  <link rel="stylesheet" href="./ripple.css">
+  </head>
+  <link rel="shortcut icon" href="./ripple.png">
+  <header class="menu">
+    <p style="text-align: center; "><a href="./Ghome.html"><img src="./ripple.png" width="130mm" id="spinT1"></a></p>
+    <div id="opb1" style="padding: 1mm;">
+    <p style="text-align: center;"><a href="./about.html"><button class="buttonM1_blue">About</button></a><a href="./contributors.html"><button class="buttonM1_blue">Contributors</button></a><a href="./donate.html"><button class="buttonM1_blue">Donate</button></a><a href="./social.html"><button class="buttonM1_blue">Social</button></a></p>
+    </div>
+    </header>
+    <body>
+<div class="con8">
+  <p style="padding:70mm;"></p>
+  <div style="background-color: #15202b; padding:3mm;">
+    <p style="text-align: center;" class="pc_l">The Harvest</p>
+      <div style="text-align:center;" id="myDIV">Do bad seeds produce good product?</div>
+      <div id="myButtons"><p style="text-align:center;padding:2mm"><button onclick="myFunctionWrong1(), End()" class="buttonM2_blue">Yes</button>     <button onclick="myFunctionCorrect1(), End()" class="buttonM2_blue">No</button></p></div>
+      <p style="padding: 5mm;"></p>
+      <div style="text-align:center;" id="myDIV2">A wicked person earns _____ wages...</div>
+      <div id="myButtons2"><p style="text-align:center;padding:2mm"><button onclick="myFunctionCorrect2(), End2()" class="buttonM2_blue">deceptive</button>     <button onclick="myFunctionWrong2(), End2()" class="buttonM2_blue">honest</button>     <button onclick="myFunctionWrong2(), End2()" class="buttonM2_blue">good</button></p></div>
+<p style="padding: 5mm;"></p>
+<p style="text-align: center;"><a href="./indResources.html"><button class="buttonM2_blue">Back to resource page.</button></a></p>
+      <script>
+      function myFunctionCorrect1() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Correct! Bad seeds produce bad product";
+        }
+      }
+      function myFunctionWrong1() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "That is not quite it.";
+        }
+      }
+      function End() {
+        var x = document.getElementById("myButtons");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function myFunctionCorrect2() {
+        var x = document.getElementById("myDIV2");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Correct! Dishonesty produces dishonesty.";
+        }
+      }
+      function myFunctionWrong2() {
+        var x = document.getElementById("myDIV2");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "That is not quite it.";
+        }
+      }
+      function End2() {
+        var x = document.getElementById("myButtons2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+</div></div>
+      </body>
+      <p style="padding:10mm;"></p>
+      <footer>
+        <p style="text-align: center;"><a href="#" target="_blank"><img src="./wave.png" width="80mm" class="spinimg1"></a><a href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/index.html" target="_blank"><img src="./libraries/JazzBlocks.png" width="80mm" class="spinimg2"></a></p>
+      </footer>
+</html>
