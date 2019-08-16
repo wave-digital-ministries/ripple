@@ -14,6 +14,8 @@ body{
   background-attachment: fixed;
   color: #cecece;
 }
+/*./webbackground.jpg*/
+/*./webbg.jpg*/
 #p1 {background-color:rgb(0, 64, 128);opacity:0.3;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.3s;}
@@ -160,6 +162,14 @@ body{
 }
 .con10{
   background-image: url(./img/loneHiker.jpeg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
+}
+
+.con11{
+  background-image: url(./img/modernTech.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: top;
