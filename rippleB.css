@@ -14,7 +14,7 @@ body{
   color: #cecece;
 }
 #p1 {background-color:rgb(0, 64, 128);opacity:0.3;
-
+}
 #p1:hover {background-color:rgb(0, 64, 128);opacity:0.8;}
 /*JazzBlock buttonCC*/
 .buttonM1_blue{
@@ -29,6 +29,7 @@ body{
   box-shadow: 0mm 0mm 0mm #FB542B;
 
   width: 25%;
+  transform: rotate(0deg);
 }
 .buttonM1_blue:hover{
   color: #cecece;
@@ -95,56 +96,49 @@ body{
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con2{
   background-image: url(./img/childBible.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con3{
   background-image: url(./img/indstudy.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con4{
   background-image: url(./img/study.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con5{
   background-image: url(./img/startup.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con6{
   background-image: url(./img/business.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: center;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con7{
   background-image: url(./img/donate.jpg);
   border-style: none;
   border-radius: 1mm;
   background-position: bottom;
-  width: 100%;
-  image-rendering: auto;
+  width: 100%
 }
 .con8{
   background-image: url(./img/wheat.jpg);
@@ -152,7 +146,6 @@ body{
   border-radius: 1mm;
   background-position: bottom;
   width: 100%;
-  image-rendering: auto;
 }
 .con9{
   background-image: url(./img/seo.jpg);
@@ -160,7 +153,21 @@ body{
   border-radius: 1mm;
   background-position: top;
   width: 100%;
-  image-rendering: auto;
+}
+.con10{
+  background-image: url(./img/loneHiker.jpeg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
+}
+
+.con11{
+  background-image: url(./img/modernTech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
 }
 .cont1{
   background-image: url(./img/JacobB.jpg);
@@ -168,9 +175,78 @@ body{
   border-radius: 1mm;
   background-position: bottom;
   width: auto;
-  image-rendering: auto;
 
 }
+/*transform: rotate(20deg);*/
 .menu{
   background-color: #343546;
+}
+.spinimg1{
+
+  padding-bottom: 6mm;
+  width: 25mm;
+}
+.spinimg1:hover{
+
+}
+.spinimg2{
+
+  padding-bottom: 6mm;
+
+}
+.spinimg2:hover{
+
+  padding-bottom: 6mm;
+
+}
+.borderHighlight{
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #cecece;
+
+}
+#spinT1{
+
+
+}
+#spinT1:hover{
+
+}
+.buttonM2_blue_grow{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+
+  width: auto;
+}
+.buttonM2_blue_grow:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #0073e6;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #0073e6;
+  box-shadow: 0mm 0mm 5mm #3399ff;
+  cursor: grab;
+
+}
+.buttonM2_blue_grow:active{
+  color: #343546;
+  border-style: solid;
+  border-color: #3399ff;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #3399ff;
+  box-shadow: 0mm 0mm 5mm #0073e6;
+  cursor: grabbing;
 }
