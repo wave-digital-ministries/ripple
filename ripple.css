@@ -96,6 +96,32 @@ body{
   background-color: #3399ff;
   box-shadow: 0mm 0mm 5mm #0073e6;
 }
+.buttonM3_blue{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: auto;
+}
+.buttonM3_blue:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 7mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 5mm #A0A1B2;
+  cursor: not-allowed;
+}
 /*end*/
 .con1{
   background-image: url(./img/teamtech.jpg);
