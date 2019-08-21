@@ -6,7 +6,6 @@ html{
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 0px;
-
 }
 body{
   background-color: #15202b;
@@ -14,6 +13,9 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #cecece;
+}
+header{
+  margin-top: 0px;
 }
 /*./webbackground.jpg*/
 /*./webbg.jpg*/
@@ -212,8 +214,9 @@ body{
 }
 /*transform: rotate(20deg);*/
 .menu{
+  margin-top: 0px;
   background-color: #343546;
-margin-top: 0px;
+
 }
 .spinimg1{
   -webkit-transition-duration: 0.4s;
