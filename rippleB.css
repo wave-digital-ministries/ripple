@@ -127,6 +127,8 @@ body{
   background-color: #0073e6;
   box-shadow: 0mm 0mm 5mm #3399ff;
   cursor: pointer;
+  border-top-left-radius: 5mm;
+  border-bottom-left-radius: 5mm;
 }
 .buttonM1_blue_left:active{
   color: #343546;
@@ -138,6 +140,8 @@ body{
   font-size: 5mm;
   background-color: #3399ff;
   box-shadow: 0mm 0mm 5mm #0073e6;
+  border-top-left-radius: 5mm;
+  border-bottom-left-radius: 5mm;
 }
 .buttonM2_blue{
   color: #cecece;
