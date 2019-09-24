@@ -1,0 +1,542 @@
+html{
+color: #1a1a1a;
+overflow-x: hidden;
+  scroll-behavior: smooth;
+background-color: #64878D;
+}
+body{
+  margin-top: 35mm;
+  margin-bottom: 5mm;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0099ff;
+  outline: 1px solid slategrey;
+}
+.index::-webkit-scrollbar {
+    width: 1em;
+}
+
+.index::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.index::-webkit-scrollbar-thumb {
+  background-color: #0099ff;
+  outline: 1px solid slategrey;
+}
+/*JazzBlock buttonX_blue*/
+.buttonXp_blue{
+  color: #0099ff;
+  border-style: solid;
+  border-color: #0099ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonXp_blue:hover{
+  color: #4db8ff;
+  border-style: solid;
+  border-color: #4db8ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 5mm #4db8ff;
+  cursor: pointer;
+}
+.buttonXp_blue:active{
+  color: #cecece;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #00e6b8;
+  cursor: pointer;
+}
+/*end*/
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 90%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  background-color: #cecece; /* Grey background color */
+  border-radius: 5mm;
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+column-count: 1;
+
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #cecece; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-family: 'Literata', serif;
+}
+
+#myUL li a:hover:not(.header) {
+  font-family: 'Literata', serif;
+  background-color: #0099ff; /* Add a hover effect to all links, except for headers */
+  border-color: #0099ff;
+}
+
+.index{
+  height: 100mm;
+  overflow: scroll;
+  margin: 0mm;
+  border-radius: 5mm;
+
+
+}
+
+.search_bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  font-family: 'Literata', serif;
+}
+/*JazzBlock pn and all compatable mods*/
+.pn{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+}
+.pn_s{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+}
+.pn_m{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+}
+.pn_l{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+}
+.pn_u{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.pn_s_u{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.pn_m_u{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.pn_l_u{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.pn_o{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.pn_s_o{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.pn_m_o{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.pn_l_o{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.pn_st{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.pn_s_st{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.pn_m_st{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.pn_l_st{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
+#fa{
+  color:#0099ff;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#fa:hover{
+  color:#4db8ff;
+  text-decoration: underline;
+}
+
+
+footer{
+  padding-top: 10mm;
+bottom: 10mm;
+}
+
+
+
+
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+
+}
+div.container{
+width: 900px;
+height: 610px;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+margin-top:50px;
+}
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: none;
+}
+.note{
+color:red;
+}
+.valid{
+color:green;
+}
+.back{
+text-decoration: none;
+border: 1px solid rgb(0, 143, 255);
+background-color: rgb(0, 214, 255);
+padding: 3px 20px;
+border-radius: 2px;
+color: black;
+}
+input[type=button]{
+  color: #0099ff;
+  border-style: solid;
+  border-color: #0099ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #0099ff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+input[type=button]:hover{
+  color: #4db8ff;
+  border-style: solid;
+  border-color: #4db8ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #4db8ff;
+  cursor: pointer;
+}
+.con1{
+  background-image: url(./css.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
+}
+
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cecece;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  border-radius: 5mm;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  border-radius: 5mm;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+header{
+  background-color: #D2DADD;
+  position: fixed;
+  top: 0mm;
+  left: 0mm;
+  width: 100%;
+  padding: 3mm;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  height: 20mm;
+  overflow-y: hidden;
+}
+header:hover{
+  background-color: #D2DADD;
+  position: fixed;
+  top: 0mm;
+  left: 0mm;
+  width: 100%;
+  padding: 3mm;
+  box-shadow: 0mm 5mm 100mm #1a1a1a;
+  height: 60mm;
+}
+#menuButtons{
+  margin-top: 1mm;
+  top: 1mm;
+  position: fixed;
+  right: 5mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#menuButtons a{
+  color:#1a1a1a;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #D2DADD;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  background-color: #D2DADD;
+}
+#menuButtons a:hover{
+  color: #4db8ff;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #626d71;
+  background-color: #626d71;
+}
+.menuButtons{
+  font-family: 'Literata', serif;
+  font-size: 10mm;
+  color:#1a1a1a;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #D2DADD;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  background-color: #D2DADD;
+}
+.menuButtons:hover{
+  font-family: 'Literata', serif;
+  color: #4db8ff;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #626d71;
+  background-color: #626d71;
+  cursor: pointer;
+}
+.menuButtons2{
+  margin: 2mm;
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  color:#1a1a1a;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #D2DADD;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  background-color: #D2DADD;
+}
+.menuButtons2:hover{
+  font-family: 'Literata', serif;
+  color: #4db8ff;
+  border-style: solid;
+  border-radius: 1mm;
+  border-color: #626d71;
+  background-color: #626d71;
+  cursor: pointer;
+}
+#fa2{
+  color:#1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#fa2:hover{
+  color:blue;
+  text-decoration: underline;
+    text-decoration-color: #1a1a1a;
+}
+.con10{
+  background-image: url(./img/modernTech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: left;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+}
+
+.con11{
+  background-image: url(./img/modernTech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con12{
+  background-image: url(./img/donate.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con13{
+  background-image: url(./img/indstudy.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con14{
+  background-image: url(./img/study.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con15{
+  background-image: url(./img/childBible.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con16{
+  background-image: url(./img/wheat.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
