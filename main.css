@@ -540,3 +540,13 @@ header:hover{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
+.con17{
+  background-image: url(./img/BibleLeaves.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: bottom;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
