@@ -18,7 +18,9 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0099ff;
+  background-color: #D2DADD;
+  border-bottom-left-radius: 3mm;
+  border-bottom-right-radius: 3mm;
   outline: 1px solid slategrey;
 }
 .index::-webkit-scrollbar {
