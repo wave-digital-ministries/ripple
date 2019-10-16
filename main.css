@@ -556,7 +556,20 @@ header:hover{
   background-image: url(./img/loneHiker.jpeg);
   border-style: none;
   border-radius: 1mm;
-  background-position: bottom;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 95%;
+  box-shadow: 0mm 0mm 4mm #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.con19{
+  background-image: url(./img/burnout.jpg);
+  background-size: cover;
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  background-repeat: no-repeat;
   width: 95%;
   box-shadow: 0mm 0mm 4mm #1a1a1a;
   -webkit-transition-duration: 0.4s; /* Safari */
