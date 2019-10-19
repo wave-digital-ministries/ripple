@@ -3,6 +3,7 @@ color: #1a1a1a;
 overflow-x: hidden;
   scroll-behavior: smooth;
 background-color: #64878D;
+width: 100%
 }
 body{
   margin-top: 35mm;
@@ -472,6 +473,14 @@ header:hover{
   color:blue;
   text-decoration: underline;
     text-decoration-color: #1a1a1a;
+}
+ul{
+list-style-type: none;
+column-count: 2;
+padding: 5mm;
+}
+li{
+height: auto;
 }
 .con10{
   background-image: url(./img/modernTech.jpg);
