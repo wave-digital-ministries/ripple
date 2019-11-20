@@ -598,7 +598,7 @@ height: auto;
 }
 .con21{
   background-image: url(./img/homeoffice.jpg);
-  background-size: contain;
+  background-size: cover;
   border-style: none;
   border-radius: 1mm;
   background-position: top;
