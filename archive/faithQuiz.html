@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--JazzBlocks required code-->
+  <link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+  <link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+  <link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+  <!--end-->
+
+  <title>Quiz</title>
+  <link rel="preload" href="./ripple.css" as="style">
+  <link rel="stylesheet" href="./ripple.css">
+  </head>
+  <link rel="shortcut icon" href="./ripple.png">
+  <header class="menu">
+    <p style="text-align: center; "><a href="./Ghome.html"><img src="./ripple.png" width="130mm" id="spinT1"></a></p>
+<div id="opb1" style="padding: 1mm;">
+<p style="text-align: center;"><a href="./about.html"><button class="buttonM1_blue_left">About</button></a><a href="./contributors.html"><button class="buttonM1_blue">Contributors</button></a><a href="./donate.html"><button class="buttonM1_blue">Donate</button></a><a href="./social.html"><button class="buttonM1_blue_right">Social</button></a></p>
+</div>
+    </header>
+    <body>
+<div class="con10">
+  <p style="padding:70mm;"></p>
+  <div style="background-color: #15202b; padding:3mm;">
+    <p style="text-align: center;" class="pc_l">Faith</p>
+      <div style="text-align:center;" id="myDIV">Who did Jesus heal?</div>
+      <div id="myButtons"><p style="text-align:center;padding:2mm"><button onclick="myFunctionWrong1(), End()" class="buttonM2_blue">The Pharasees</button>     <button onclick="myFunctionWrong1(), End()" class="buttonM2_blue">Three Wise Men</button>     <button onclick="myFunctionCorrect1(), End()" class="buttonM2_blue">Ten Lepers</button></p></div>
+      <p style="padding: 5mm;"></p>
+      <div style="text-align:center;" id="myDIV2">How many returned to praise Jesus?</div>
+      <div id="myButtons2"><p style="text-align:center;padding:2mm"><button onclick="myFunctionCorrect2(), End2()" class="buttonM2_blue">One</button>     <button onclick="myFunctionWrong2(), End2()" class="buttonM2_blue">All of them</button>     <button onclick="myFunctionWrong2(), End2()" class="buttonM2_blue">None</button></p></div>
+      <p style="padding: 5mm;"></p>
+      <div style="text-align:center;" id="myDIV3">"...And Jesus said to the man, “Stand up and go. Your _  has _ you.””</div>
+      <div id="myButtons3"><p style="text-align:center;padding:2mm"><button onclick="myFunctionWrong3(), End3()" class="buttonM2_blue">evil, destroyed</button>     <button onclick="myFunctionCorrect3(), End3()" class="buttonM2_blue">faith, healed</button>     <button onclick="myFunctionWrong3(), End3()" class="buttonM2_blue">care, healed</button></p></div>
+<p style="padding: 5mm;"></p>
+<p style="text-align: center;"><a href="./indResources.html"><button class="buttonM2_blue">Back to resource page.</button></a></p>
+      <script>
+      function myFunctionCorrect1() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Correct! Jesus healed ten lepers";
+        }
+      }
+      function myFunctionWrong1() {
+        var x = document.getElementById("myDIV");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "That is not quite it.";
+        }
+      }
+      function End() {
+        var x = document.getElementById("myButtons");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function myFunctionCorrect2() {
+        var x = document.getElementById("myDIV2");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Correct! Dishonesty produces dishonesty.";
+        }
+      }
+      function myFunctionWrong2() {
+        var x = document.getElementById("myDIV2");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "That is not quite it.";
+        }
+      }
+      function End2() {
+        var x = document.getElementById("myButtons2");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      function myFunctionCorrect3() {
+        var x = document.getElementById("myDIV3");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "Correct! The man's faith healed him.";
+        }
+      }
+      function myFunctionWrong3() {
+        var x = document.getElementById("myDIV3");
+        if (x.innerHTML === "Hello") {
+          x.innerHTML = "Swapped text!";
+        } else {
+          x.innerHTML = "That is not quite it.";
+        }
+      }
+      function End3() {
+        var x = document.getElementById("myButtons3");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      </script>
+</div></div>
+      </body>
+      <p style="padding:10mm;"></p>
+      <footer>
+        <p style="text-align: center;"><a href="https://www.wavedm.net/" target="_blank"><img src="./wave.png" width="80mm" class="spinimg1"></a><a href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/index.html" target="_blank"><img src="./libraries/JazzBlocks.png" width="80mm" class="spinimg2"></a></p>
+      </footer>
+</html>
