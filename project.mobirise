@@ -46,7 +46,7 @@
       }
     ],
     "imageResize": true,
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/wdmpwa-128x128.png",
     "cssOptimize": false,
     "lazyLoad": false,
     "lazyType": "blur",
@@ -59,7 +59,14 @@
     "uniqCompNum": 87,
     "versionPublish": "4.12.1",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "PWA": {
+      "enabled": true,
+      "name": "",
+      "icon": "@PROJECT_PATH@/assets/images/wdmpwa-512x512.png",
+      "themeColor": "#ab9776"
+    },
+    "pwa-switcher": true
   },
   "pages": {
     "index.html": {
