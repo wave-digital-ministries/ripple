@@ -1151,17 +1151,34 @@ section.lazy-placeholder:after {
 .cid-rUtJuYdUaR .mbr-section-title {
   color: #1a1a1a;
 }
-#custom-html-2p {
-  /* Type valid CSS here */
+.cid-rWgbHjlexx {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/waves-1920x1080.jpg");
 }
-#custom-html-2p div {
-  padding: 20px 0;
-  color: #777;
-  text-align: center;
+.cid-rWgbHjlexx .mbr-section-title {
+  letter-spacing: 0.1em;
 }
-#custom-html-2p p {
-  font-size: 60px;
-  color: #777;
+.cid-rWgbHjlexx .mbr-section-subtitle {
+  color: #444444;
+  letter-spacing: 0.03em;
+}
+.cid-rWgbHjlexx .client-name {
+  color: #444;
+  letter-spacing: 0.05em;
+}
+.cid-rWgbHjlexx .wrap-img {
+  padding-bottom: 1rem;
+}
+.cid-rWgbHjlexx .wrap-img img {
+  max-width: 100%;
+}
+.cid-rWgbHjlexx .card-box p {
+  color: #444;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 1.5rem;
 }
 .cid-rSOBifUwRw {
   background-image: url("../../../assets/images/homeoffice-1920x1280.jpg");
@@ -1606,6 +1623,35 @@ section.lazy-placeholder:after {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-rWgcf2J6f5 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1a1a1a;
+}
+.cid-rWgcf2J6f5 .mbr-section-title {
+  letter-spacing: 0.1em;
+}
+.cid-rWgcf2J6f5 .mbr-section-subtitle {
+  color: #444444;
+  letter-spacing: 0.03em;
+}
+.cid-rWgcf2J6f5 .client-name {
+  color: #444;
+  letter-spacing: 0.05em;
+}
+.cid-rWgcf2J6f5 .wrap-img {
+  padding-bottom: 1rem;
+}
+.cid-rWgcf2J6f5 .wrap-img img {
+  max-width: 100%;
+}
+.cid-rWgcf2J6f5 .card-box p {
+  color: #444;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 1.5rem;
 }
 .cid-rUu5FiR0Oy .dropdown-item:before {
   font-family: MobiriseIcons !important;
