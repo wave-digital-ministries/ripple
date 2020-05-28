@@ -22,6 +22,7 @@
   
   
   
+
 <meta name="theme-color" content="#ab9776">
 <link rel="manifest" href="manifest.json">
 <script src="sw-connect.js"></script>
@@ -35,8 +36,7 @@
 <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" href="assets/images/apple-launch-2048x2732.png">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-</head>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"></head>
 <body>
   <section class="extMenu12 menu popup-btn-cards cid-rVpkzfmGUZ" once="menu" id="extMenu13-2l">
 
@@ -136,6 +136,37 @@
         </div>
     </div>
 </section>
+
+<div id="custom-html-3q"><!-- Type valid HTML here -->
+<div>
+    <h1 class="display-1">Review Questions</h1>
+    <p style="padding: 10mm;"></p>
+<h3>Finish the verse: Cast all your anxiety on him because he ___  ___  ___</h3>
+<p id="q1"><button class="btn btn-md btn-primary display-4" onclick="qa2()">cares for you</button><button class="btn btn-md btn-primary display-4" onclick="qa1()">loves you always</button><button class="btn btn-md btn-primary display-4" onclick="qa1()">loves for you</button></p>
+<script>
+    function qa1() {
+        var x = document.getElementById("q1");
+        document.getElementById("q1").innerHTML = "Not quite";
+    }
+        function qa2() {
+        var x = document.getElementById("q1");
+        document.getElementById("q1").innerHTML = "You got it!";
+    }
+</script>
+    
+    <h3>We are to bring what to God?</h3>
+<p id="q2"><button class="btn btn-md btn-primary display-4" onclick="qa3()">feelings</button><button class="btn btn-md btn-primary display-4" onclick="qa1()">emotions</button><button class="btn btn-md btn-primary display-4" onclick="qa4()">struggles and worries</button></p>
+<script>
+    function qa3() {
+        var x = document.getElementById("q2");
+        document.getElementById("q2").innerHTML = "Not quite";
+    }
+        function qa4() {
+        var x = document.getElementById("q2");
+        document.getElementById("q2").innerHTML = "You got it!";
+    }
+</script>
+</div></div>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>

@@ -3265,6 +3265,18 @@ section.lazy-placeholder:after {
 .cid-rUubGxKz4W .media-content {
   color: #1a1a1a;
 }
+#custom-html-3p {
+  /* Type valid CSS here */
+}
+#custom-html-3p div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-3p p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-rUucQPk99R .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
@@ -8948,6 +8960,18 @@ section.lazy-placeholder:after {
 .cid-rVpkzg8kOZ .mbr-text,
 .cid-rVpkzg8kOZ .media-content {
   color: #1a1a1a;
+}
+#custom-html-3q {
+  /* Type valid CSS here */
+}
+#custom-html-3q div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-3q p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-rUue7H3Rql .dropdown-item:before {
   font-family: MobiriseIcons !important;
