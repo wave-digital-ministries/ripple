@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "WDM | Courses",
-    "currentPage": "worryIND.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "techm4",
       "title": "TechM4",
@@ -62,7 +62,7 @@
       "text": "By continuing you agree to our <a href='privacy.html'>Privacy Policy</a>."
     },
     "uniqCompNum": 135,
-    "versionPublish": "4.12.1",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "PWA": {
