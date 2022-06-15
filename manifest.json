@@ -1,1 +1,1 @@
-{"name":"WDM | Courses","short_name":"WDM | Courses","start_url":"/","display":"standalone","theme_color":"#ab9776","background_color":"#ab9776","icons":[{"src":"assets/icons/512x512.png","sizes":"512x512","type":"image/png"}]}
+{"short_name":"Courses","name":"WDM Courses","icons":[{"src":"/assets/img/android_homescreen.jpg","type":"image/jpeg","sizes":"192x192"},{"src":"/assets/img/splashscreen.jpg","type":"image/jpeg","sizes":"512x512"}],"start_url":"index.html","theme_color":"#000000","display":"fullscreen","orientation":"portrait"}
