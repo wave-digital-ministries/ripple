@@ -10,10 +10,16 @@
         <loc>/group/harvest.html</loc>
     </url>
     <url>
+        <loc>/group/WhenLiving4Him.html</loc>
+    </url>
+    <url>
         <loc>/group/worry.html</loc>
     </url>
     <url>
         <loc>/group/yourpast.html</loc>
+    </url>
+    <url>
+        <loc>/individual/blank.html</loc>
     </url>
     <url>
         <loc>/individual/burnout.html</loc>
@@ -23,6 +29,9 @@
     </url>
     <url>
         <loc>/individual/harvest.html</loc>
+    </url>
+    <url>
+        <loc>/individual/WhenLiving4Him.html</loc>
     </url>
     <url>
         <loc>/individual/worry.html</loc>
@@ -56,6 +65,9 @@
     </url>
     <url>
         <loc>/ministry.html</loc>
+    </url>
+    <url>
+        <loc>/mobilehome.html</loc>
     </url>
     <url>
         <loc>/privacy.html</loc>
